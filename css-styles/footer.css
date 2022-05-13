@@ -1,0 +1,87 @@
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: white;
+    padding: 30px;
+}
+
+@media screen and (max-width: 699px) {
+    #sign-up {
+        display: none;
+    }
+
+    a #log-in {
+        border: 2px solid;
+        padding-right: 0px;
+        padding: 6px 10px;
+        text-decoration: none;
+    }
+    footer {
+        display: none;
+    }
+    h3 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 0px;
+    }
+    .start-btn {
+        font-size: 16px;
+        width: 130px;
+        height: 45px;
+        margin-top: 0px;
+    }
+    .main {
+        margin-bottom: 20px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: white
+}
+
+/* .fb-img-container {
+    height: 100%
+} */
+.fb-img {
+    display: flex;
+    background: none;
+    width: 65%;
+    height: 65%;
+    opacity: .7;
+}
+
+.twitter-img {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    opacity: .7;
+}
+
+.instagram-logo {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    opacity: .7;
+}
+
+span a+span {
+    color: rgba(255, 255, 255, 0.534)
+}
